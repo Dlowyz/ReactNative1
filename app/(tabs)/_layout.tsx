@@ -7,14 +7,14 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
-          tabBarIcon: ({ color }) => <Text>HELLOOO</Text>,
+          tabBarIcon: ({ color }) => <Text>Index</Text>,
         }}
       />
       <Tabs.Screen
         name="splashScreen"
         options={{
           title: "splash",
-          tabBarIcon: ({ color }) => <Text>HELLOOO</Text>,
+          tabBarIcon: ({ color }) => <Text>Login</Text>,
         }}
       />
     </Tabs>
